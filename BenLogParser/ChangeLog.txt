@@ -1,0 +1,4 @@
+﻿1.1
+ - Tried to patch over a bug where program would trip up on locked files. Used 'wait and try again' technique
+ - Added support for multi-line records
+ - Added support for 'warning' tag

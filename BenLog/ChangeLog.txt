@@ -1,0 +1,17 @@
+﻿1.3
+  - Added FileIsAvailable property to check if file is available
+  - Fixed bug where multi-line records would cause LogReader to crash out
+  - Added 'warning' tag
+
+1.3 ToDo
+  - Add line concatinator
+  - Fix app version getter (LogWriter.cs)
+
+1.2
+ - Added 'Debug mode'. If debug mode is off, debug messages will not be written to the log.
+ - Added LogItem class
+ - Added LogReader class. Reads log and converts records into into LogItem objects.
+ - Implemented 'DeleteLog' method
+ - Removed ShowVers as it was causing crashes (I think a stack overflow but no sure)
+ - Added LogFileDir & LogFileName properties.
+

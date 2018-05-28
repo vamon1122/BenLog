@@ -1,0 +1,3 @@
+ - Add ability to turn debug on and off
+ - Add READER
+ 
